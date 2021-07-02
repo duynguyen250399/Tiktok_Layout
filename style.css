@@ -208,7 +208,7 @@ header .search-bar input::placeholder{
 
 .container .for-you-content{
     padding-left: 30px;
-    width: 50vw;
+    width: 90%;
     color: white;
     padding-top: 20px;
     font-weight: 300;
@@ -274,10 +274,13 @@ header .search-bar input::placeholder{
     padding: 6px;
     background-color: #2F302F;
     height: 91%;
+    max-height: 91%;
 }
 
 .container .for-you-content .post-content-container .user-interact .comments .wrapper{
     height: 91%;
+    max-height: 91%;
+    overflow-y: hidden;
     background-color: var(--back-super-dark);
 }
 
