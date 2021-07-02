@@ -7,6 +7,10 @@
     --back-super-dark: #171717;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 *{
     font-family: 'Open Sans', sans-serif;
     padding: 0;
@@ -273,15 +277,17 @@ header .search-bar input::placeholder{
     border-radius: 8px;
     padding: 6px;
     background-color: #2F302F;
-    height: 91%;
-    max-height: 91%;
+    height: 100%;
+    max-height: 100vh;
 }
 
 .container .for-you-content .post-content-container .user-interact .comments .wrapper{
-    height: 91%;
-    max-height: 91%;
+    height: 100%;
+    max-height: 91vh;
     overflow-y: hidden;
     background-color: var(--back-super-dark);
+    overflow-y: scroll;
+    
 }
 
 .container .for-you-content .post-content-container .user-interact .comments .comments-inner{
